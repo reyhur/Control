@@ -1,6 +1,6 @@
 function[] = RouthHurwitz()
 % RouthHurwitz()
-% Esta función recibe como entrada una función de transferencia en lazo cerrado y proporciona la tabla de Routh conjuntamente con el análisis de estabilidad del sistema.
+% Esta función para Octave o Matlab recibe como entrada una función de transferencia en lazo cerrado y proporciona la tabla de Routh conjuntamente con el análisis de estabilidad del sistema.
 % La solución funciona también para los casos donde: (1) el primer elemento de la fila es cero; (b) se tiene una fila de ceros.
 %
 % Acepta funciones de transferencia con la variable desconocida K, dando como resultado la tabla de Routh y el rango de K que hace al sistema estable.
