@@ -1,5 +1,6 @@
 function[] = RouthHurwitz()
 % RouthHurwitz()
+% Versión para Matlab 2024b
 % Esta función recibe como entrada una función de transferencia en lazo cerrado y proporciona la tabla de Routh conjuntamente con el análisis de estabilidad del sistema.
 % La solución funciona también para los casos donde: (1) el primer elemento de la fila es cero; (b) se tiene una fila de ceros.
 %
